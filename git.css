@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav content";
+    grid-template-columns: 28% auto;
+    height: 100vh;
+    background-color: #CAD2C5;
+}
+
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+.leftnav{
+    padding: 25px;
+    margin: 40px;
+    height: 74vh;
+    border-radius: 25px;
+    background-color: #2F3D46;
+}
+main{
+    grid-area: content;
+}
+
+.temp{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.temp h2{
+    padding: 10%;
+    margin: 5px;
+    width: 25%;
+    border-radius: 25px;
+    background-color: #2F3D46;
+}
+
+.flow h3{
+    padding: 8%;
+    margin: 5px;
+    border-radius: 25px;
+    background-color: #2F3D46;
+    width: 88%;
+    margin-left: 6%;
+}
+
+main input{
+    width: 62%;
+    height: 6%;
+    background-color: #2F3D46;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.search{
+    margin-top: 30px;
+    margin-left: 30%;
+}
+
+header{
+    background-color: #2F3D46;
+    color: #fff;
+    padding: 20px;
+    border: 1px solid rgb(188, 188, 221);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 20px;    
+}
